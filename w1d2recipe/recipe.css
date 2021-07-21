@@ -1,0 +1,35 @@
+header {
+  text-align: center;
+  font-size: 22pt;
+}
+h1 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode Helivetica Arial sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+body {
+    background-color:white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia Garamond serif
+}
+body a {
+ color: #A4A400;
+}
+#cake {
+    text-decoration: line-through;
+}
+blockquote {
+    background-color:#FFFFA8;
+}
+.copy-right
+{
+    text-align: right;
+}
+pre {
+    font-family: monospace;
+}
+
+
