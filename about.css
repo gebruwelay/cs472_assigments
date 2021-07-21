@@ -1,0 +1,13 @@
+h1,h3 {
+    color:rgb(160, 197, 237);
+}
+header, body, footer {
+    background-color: rgb(89,86,72);
+}
+a {
+    text-decoration:none;
+}
+p::first-letter {
+    font-size: 1.5em;
+}
+
