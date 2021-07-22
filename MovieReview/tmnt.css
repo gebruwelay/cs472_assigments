@@ -1,0 +1,172 @@
+.validators
+{
+    float:right;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-family: Tohoma, Verdana, serif;
+    text-shadow: 3px 3px #999999;
+}
+
+body 
+{
+    background-image: url("images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.twothree {
+    padding: 10pt;
+    font-family: Arial, sans-serif;
+}
+dd{
+    margin-bottom: 10pt;
+}
+.footer {
+    padding: 5px;
+}
+.twothree, footer {
+    background-color: #A2B964;
+}
+.header>span {
+    color: red;
+    font-weight: bold;
+    font-size: 24pt;
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+.ground {
+    background-color: #E8DC9B;
+}
+.second >img,.third>img,.fourth>img,.fifth>img,.six>img, .seven>img, 
+.eight>img,.nine>img,.ten>img, .eleven>img,.twelve>img,.thirteen>img,
+.fourtheen>img,.fifteen>img,.sixteen>img,.seventeen>img, .eighteen>img,.nintheen>img,
+.twozero>img, .twoone>img
+{
+  float: left;
+  padding-right: 5px;
+}
+.vertical 
+{
+    margin-bottom: 20pt;
+}
+.contianer
+{
+    display: grid;
+    margin: auto;
+    width:80%;
+    border: 4px solid gray;
+    border-radius: 20px;
+    grid-template-areas: 
+    'header header header header twofour twofour'
+    'second second third third twofour twofour'
+    'fourth fourth fifth fifth twofour twofour'
+    'six six seven seven twofour twofour'
+    'eight eight nine nine twothree twothree'
+    'ten ten eleven eleven twothree twothree'
+    'twelve twelve thirteen thirteen twothree twothree'
+    'fourtheen fourtheen fifteen fifteen twothree twothree'
+    'sixteen sixteen seventeen seventeen twothree twothree'
+    'eighteen eighteen nintheen nintheen twothree twothree'
+    'twozero twozero twoone twoone twothree twothree'
+    'twotwo twotwo twotwo twotwo twothree twothree'
+    'footer footer footer footer footer footer';
+    grid-column-gap: 2%;
+}
+.second,.third,.six,.seven,.ten,.eleven,.fourtheen,.fifteen,
+.eighteen,.nintheen
+{
+ border: 2px solid gray;
+ border-radius: 10px;
+ padding: 8px;
+}
+
+.footer {
+    grid-area: footer;
+}
+.twofour{
+    grid-area: twofour;
+}
+.twothree
+{
+    grid-area: twothree;
+}
+.twotwo
+{
+    grid-area: twotwo;
+}
+.twoone
+{
+    grid-area: twoone;
+}
+.twozero
+{
+    grid-area: twozero;
+}
+.nintheen
+{
+    grid-area: nintheen;
+}
+.eighteen
+{
+    grid-area: eighteen;
+}
+.seventeen 
+{
+    grid-area: seventeen;
+}
+.sixteen {
+    grid-area: sixteen;
+}
+.fifteen {
+    grid-area: fifteen;
+}
+.fourtheen {
+    grid-area: fourtheen;
+}
+.thirteen {
+    grid-area: thirteen;
+}
+.twelve {
+    grid-area: twelve;
+}
+.eleven {
+    grid-area: eleven;
+}
+.ten 
+{
+    grid-area: ten;
+}
+.nine {
+    grid-area: nine;
+}
+.eight
+{
+    grid-area: eight;
+}
+.seven {
+    grid-area: seven;
+}
+.header {
+    grid-area: header;
+}
+.second {
+    grid-area: second;
+}
+.third {
+    grid-area: third;
+}
+.fourth {
+    grid-area: fourth;
+}
+.fifth {
+    grid-area: fifth;
+}
+.six {
+    grid-area: six;
+}
