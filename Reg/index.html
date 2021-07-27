@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+    <form style=" margin:auto; width: 50%; margin-top: 10%;">
+      <div>  Email Address <br/><input type="text"  placeholder="Enter email"><br/><span> we'll never share your email address with anyone else!</span><br/><br/></div>
+        
+      <div>  Password <br/>
+        <input type="text" placeholder="Password" pattern="((?=.*\d)(?=.*[a-z])(?=.*[A Z]).{10,})" 
+        title="At least 10 characters, at least one number
+            and one uppercase and lowercase letter"><br/> </div>
+        <div> url:<br/>
+            <input type="text" pattern="https?://.+" title="Please enter a URL"></div>
+       <div> <input type="checkbox"/> Check me out<br/></div>
+        <input type="submit">
+    </form>
+</body>
+</html>
