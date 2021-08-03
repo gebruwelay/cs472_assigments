@@ -35,11 +35,11 @@ describe ("account and Saving methods test", function (){
     let accnum =2;
     let b = new Bank();
     it(`it expected 1 adding new account to bank`, function(){
-        assert.equal(b.addAccount(),1);
+        assert.equal(b.addAccount(),2);
     });
     accnum =3;
     it(`it expected 2 adding new saving account to bank`, function(){
-        assert.equal(b.addSavingsAccount(3000,7),2);
+        assert.equal(b.addSavingsAccount(3000,7),3);
     });
 
     accnum =4
