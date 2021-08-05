@@ -1,5 +1,5 @@
 $(() => { 
-    
+
     const MAZE = (function(){     
 
         let wallTouched = false;
@@ -20,14 +20,14 @@ $(() => {
         };    
 
         const alertMessage = () => {
-            alert("Sorry, you lost! :[");
+            alert("loser!");
         };    
 
         const end = () => {
             if(!game){
-                alert("You are coming from wrong direction! Please enter via [S] gate!");
+                alert("wrong direction! Please enter via [S] gate!");
             }else{
-                wallTouched ? alert("Sorry, you lost! :["):alert("You win! :]");
+                wallTouched ? alert("loser!"):alert("winner!");
                 game = "";
             }  
         };
