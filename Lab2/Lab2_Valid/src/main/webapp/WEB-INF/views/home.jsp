@@ -12,8 +12,8 @@
 
 <p>
 
-<%--<button onclick="window.location='<spring:url value="/registration" />' ">--%>
-<%--     Student Registration</button>--%>
+<button onclick="window.location='<spring:url value="/registration" />' ">
+   Student Registration</button>
 
 </p>
 </body>
